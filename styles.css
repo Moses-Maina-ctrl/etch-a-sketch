@@ -10,7 +10,7 @@
     grid-template-columns: repeat(var(--colNumber), 1fr);
 }
 .grids {
-    border: 1px solid rgb(105, 105, 105);
+    border: 0.1px solid rgb(105, 105, 105);
 }
 
   

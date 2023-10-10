@@ -12,4 +12,4 @@ function createDivs(gridNum){
     }
     root.style.setProperty('--colNumber', gridNum);
 }
-createDivs(96);
+createDivs(6);
