@@ -2,7 +2,7 @@ const container = document.querySelector('#container');
 let root = document.querySelector(':root');
 let rootStyles = getComputedStyle(root);
 let colNumber = rootStyles.getPropertyValue('--colNumber');
-
+let grids = 16;
 
 function createDivs(gridNum){
     for(i = 0; i < (gridNum*gridNum);i++){
@@ -12,4 +12,4 @@ function createDivs(gridNum){
     }
     root.style.setProperty('--colNumber', gridNum);
 }
-createDivs(6);
+createDivs(grids);
