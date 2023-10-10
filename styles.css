@@ -1,0 +1,16 @@
+:root {
+    --colNumber: 0;
+}
+#container{
+    height:960px;
+    width: 960px;
+    border: 3px solid black;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(var(--colNumber), 1fr);
+}
+.grids {
+    border: 1px solid rgb(105, 105, 105);
+}
+
+  
