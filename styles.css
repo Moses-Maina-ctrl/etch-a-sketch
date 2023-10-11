@@ -9,6 +9,7 @@
     margin: auto;
     display: grid;
     grid-template-columns: repeat(var(--colNumber), 1fr);
+    
 }
 .grids {
     border: 0.1em solid rgb(228, 226, 226);
@@ -47,29 +48,35 @@
   cursor: pointer;
 }
 
+.buttons{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
 
 #erase {
-display: block;
+margin-top: 20px;
 outline: none;
 width:100px;
 cursor: pointer;
 font-weight: 500;
-border: 1px solid transparent;
+border: 1px solid black;
 border-radius: 2px;
 height: 36px;
 line-height: 34px;
 font-size: 14px;
-color: #ffffff;
-background-color: #007c89;
+color: #000000;
+background-color: #e7e7e7;
 transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
-padding: 0 18px;
+
 :hover {
     color: #ffffff;
     background-color: #006570;
 }
 }
 #reset{
-  display: block;
+  margin-top: 20px;
+  display: inline;
   width:100px;
   outline: none;
   cursor: pointer;
@@ -82,7 +89,7 @@ padding: 0 18px;
   color: #ffffff;
   background-color: #007c89;
   transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
-  padding: 0 18px;
+  
   :hover {
       color: #ffffff;
       background-color: #006570;
