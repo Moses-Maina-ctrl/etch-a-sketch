@@ -19,9 +19,19 @@ function createDivs(gridNum){
         divs.className = 'grids';
     }
     root.style.setProperty('--colNumber', gridNum);
-    root.style.setProperty('--rowNumber', gridNum);   
+    root.style.setProperty('--rowNumber', gridNum); 
+    const item = document.querySelectorAll('.grids');
+    defaultColorOnHover(item); 
 }
 
 function deleteDivs(){
     container.innerHTML = '';
 }
+
+function defaultColorOnHover(div){
+    div.forEach((cell) => {
+        cell.addEventListener('mouseover', () => {
+          cell.style.background = 'black';
+        });
+      });
+} 
