@@ -15,9 +15,8 @@
     border: 0.1em solid rgb(228, 226, 226);
     background-color: var(--bgcolor);
 }
-.grids:hover{
-    background-color: black;
-}
+
+
 .title{
     font-family: 'Trick Or Dead', sans-serif;
     color: orange;

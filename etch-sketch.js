@@ -5,6 +5,7 @@ let colNumber = rootStyles.getPropertyValue('--colNumber');
 let slider = document.querySelector(".slider");
 let grids = slider.value;
 
+createDivs(grids);
 function createDivs(gridNum){
     for(i = 0; i < (gridNum*gridNum);i++){
         let divs =document.createElement('div');
@@ -12,6 +13,5 @@ function createDivs(gridNum){
         divs.className = 'grids';
     }
     root.style.setProperty('--colNumber', gridNum);
+    
 }
-
-createDivs(grids);
