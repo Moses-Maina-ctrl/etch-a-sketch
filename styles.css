@@ -15,7 +15,7 @@
 }
 .grids {
     border: 0.1em solid rgb(228, 226, 226);
-    background: var(--bgcolor);
+    background: white;
 }
 
 
@@ -96,3 +96,24 @@ transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
       background-color: #006570;
   }
 }
+
+#color {
+  margin-top: 20px;
+  outline: none;
+  width:100px;
+  cursor: pointer;
+  font-weight: 500;
+  border: 1px solid black;
+  border-radius: 2px;
+  height: 36px;
+  line-height: 34px;
+  font-size: 14px;
+  color: #d3cfcf;
+  background-color: #241d1d;
+  transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
+  
+  :hover {
+      color: #ffffff;
+      background-color: #006570;
+  }
+  }
