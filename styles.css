@@ -70,10 +70,11 @@ color: #000000;
 background-color: #e7e7e7;
 transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
 
-:hover {
-    color: #ffffff;
-    background-color: #006570;
+
 }
+#erase:hover {
+  color: #2e2c2c;
+  background-color: #afb8b9;
 }
 #reset{
   margin-top: 20px;
@@ -91,12 +92,11 @@ transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
   background-color: #007c89;
   transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
   
-  :hover {
-      color: #ffffff;
-      background-color: #006570;
-  }
 }
-
+#reset:hover {
+  color: #ffffff;
+  background-color: #737b7c;
+}
 #color {
   margin-top: 20px;
   outline: none;
@@ -108,12 +108,20 @@ transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
   height: 36px;
   line-height: 34px;
   font-size: 14px;
-  color: #d3cfcf;
+  color: #f7f5f5;
   background-color: #241d1d;
   transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
   
-  :hover {
-      color: #ffffff;
-      background-color: #006570;
+  
   }
-  }
+
+#color:hover {
+  color: #ffffff;
+  background-color: #86a0a3;
+}
+footer{
+  
+  margin-top: 120px;
+  margin-bottom: 0;
+  font-size: 12px;
+}
